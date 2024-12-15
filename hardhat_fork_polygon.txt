@@ -1,0 +1,7 @@
+npx hardhat node --fork https://polygon-mainnet.g.alchemy.com/v2/JOGYiBYYVqQJUCF1UsNqcPWNhJixWaLO
+
+npx hardhat node --fork https://polygon-rpc.com/
+
+npx hardhat node --fork https://polygon-mainnet.g.alchemy.com/v2/JOGYiBYYVqQJUCF1UsNqcPWNhJixWaLO
+
+npx hardhat node --fork https://api.zan.top/node/v1/polygon/mainnet/ee55242d0cba4d5a84f2c8cad8645e19
