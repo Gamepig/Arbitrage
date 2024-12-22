@@ -81,7 +81,7 @@ def insertProfitRecord(pair,DEX,amount,profit,GAS,GasUSD,ReturnAmount,TokenPrice
         port='3306',
         database='arbfinder',
         user='gamepig',
-        password='<@Gamepig1976@>'
+        password=''
     )
     db_cursor = db_connection.cursor()
     sqlstr = f"INSERT INTO arbfinder.ProfitRecord (pair,DEX,amount,profit,GAS,GasUSD,ReturnAmount,TokenPriceUSD,ReturnQuote) VALUES ('{pair}','{DEX}',{amount},{profit},{GAS},{GasUSD},{ReturnAmount},{TokenPriceUSD},{ReturnQuote})"
